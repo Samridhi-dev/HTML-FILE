@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/brands.css">
+
+	<title>Male Fashion</title>
+</head>
+<body>
+	<div class="upper">
+		<p>Free shipping, 30-day return or refund guarantee.</p>
+    	<ul>
+    		<li><a href="#">SIGN IN</a></li> 
+    		<li><a href="#">FAQS</a></li>
+    		<li><a href="#">USD <i class="fa fa-angle-down"></i></a></li>
+    	</ul>
+	</div>
+
+	<div class="second2">
+		<img src='images/logo.png'>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="shop.html">Shop</a></li>
+			<!-- <li><a href="#">Pages</a></li> -->
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="contact.html">Contacts</a></li>
+		</ul>
+		<ul>
+			<li><a href="#"><i class="fa fa-search"></i></a></li>
+            <li><a href="#"><i class="fa fa-heart ib"></i></a></li>
+            <li><a href="#"><i class="fa fa-shopping-bag"></i> $0.00</a></li>
+		</ul>
+	</div>
+
+	<div class="container">
+    	<div class="slider-container">
+        	<div class="slides">
+            	<div class="slide bg">
+                	<!-- <img src="../images/scene1.jpg" alt="Eye 1"> -->
+                	<div class="text-overlay">
+                    	<h6>Summer Collection</h6>
+                    	<h2>Fall - Winter Collections 2030</h2>
+                    	<p>A specialist label creating luxury essentials. Ethically crafted with an unwavering commitment to exceptional quality.</p>
+                    	<a href="#">SHOP NOW</a>
+                    	<i class="fa fa-facebook"></i>
+                	</div>
+            	</div>
+            	<div class="slide bg1">
+                	<!-- <img src="../images/banner13.jpg" alt="Eye 2"> -->
+                	<div class="text-overlay">
+                    	<h6>Winter Collection</h6>
+                    	<h2>Fall - Winter Collections 2030</h2>
+                    	<p>A specialist label creating luxury essentials. Ethically crafted with an unwavering commitment to exceptional quality.</p>
+                    	<a href="#">SHOP NOW</a>
+                	</div>
+            	</div>
+        	</div>
+        	<button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        	<button class="next" onclick="moveSlide(1)">&#10095;</button>
+    	</div>
+    </div>
+	<!-- <div class="slider">
+		<div class="summer">
+			<p class="para">SUMMER COLLECTION</p><br><br>
+			<h1 class="head1">Fall - Winter<br>Collections 2030</h1><br><br>
+            <p class="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed <br>do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br><br>
+            <button class="btn">SHOP NOW <i class="fa fa-arrow-right"></i></button>
+            <ul>
+            	<li><a href="#"><i class="fa fa-user"></i></a></li>
+            	<li><a href="#"><i class="fa fa-user"></i></a></li>
+            	<li><a href="#"><i class="fa fa-user"></i></a></li>
+            	<li><a href="#"><i class="fa fa-user"></i></a></li>
+            </ul>
+        </div>
+	</div> -->
+
+	<!-- <div class="shopnow">
+		<div class="left">
+			<img src="images/banner-2.jpg">
+			<div class="access">
+				<h2>Accessories</h2>
+				<a href="#">SHOP NOW</a>
+			</div>
+		</div>
+		<div class="right">
+			<div class="divtop">
+				<img src="images/banner-1.jpg">
+				<div class="clothing">
+					<h2>Clothing<br>Collections 2030</h2>
+					<a href="#">SHOP NOW</a>
+				</div>
+			</div>
+			<div class="divbottom">
+				<img src="images/banner-3.jpg" style="float:right;">
+				<div class="clothing1">
+					<h2>Shoes Spring<br>2030</h2>
+					<a href="#">SHOP NOW</a>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+	<div style="width:100%;height: 200vh;">
+		<div class="boy3">
+			<div class="boy4">
+				<h2 class="hh2" style="color:black;">Clothing<br> Collections 2030</h2><br>
+				<u class="shop">SHOP NOW</u>
+				<div class="boy" style="border: 1px solid black;"></div>
+			</div>
+			<div class="boy5"></div>
+		</div>
+		<div class="glass">
+			<h2 class="spring">Shoes Spring<br> 2030</h2>
+            <br><p class="shop2">SHOP NOW</p>
+			<div class="shoes"></div>
+		</div>
+		<div class="acessories">
+			<h1 style="font-size:40px;font-family: Arial;">Accessories</h1><br>
+
+        	<p class="para2" style="font-size: 13px;color:black;font-family: Arial;font-weight: lighter;letter-spacing: 2px;">SHOP NOW</p>
+		</div>
+	</div>
+
+	<div class="filter">
+    <a class="active" onclick="showProducts('best')">Best Sellers</a>
+    <a onclick="showProducts('new')">New Arrivals</a>
+    <a onclick="showProducts('hot')">Hot Sales</a>
+  </div>
+
+	<div class="product">
+		<div class="shirt">
+			<img src="images/product-1.jpg">
+			<p class="boots">Pique Biker Jacket</p>
+			<i class="fa fa-star ig"></i><i class="fa fa-star ig"></i><i class="fa fa-star ig"></i><i class="fa fa-star ig"></i><i class="fa fa-star ig"></i>
+			<p class="color">$67.24</p>
+			<div class="status">NEW</div>
+		</div>
+		<div class="shirt">
+			<img src="images/product-2.jpg">
+        	<p class="boots">Zara Jacket</p>
+			<i class="fa fa-star ig"></i><i class="fa fa-star ig"></i><i class="fa fa-star ig"></i><i class="fa fa-star ig"></i><i class="fa fa-star ig"></i>
+			<p class="color">$67.24</p>
+		</div>
+		<div class="shirt">
+			<img src="images/product-3.jpg">
+         	<p class="boots">Shoess</p>
+			<i class="fa fa-star ic"></i><i class="fa fa-star ic"></i><i class="fa fa-star ic"></i><i class="fa fa-star ic"></i><i class="fa fa-star ig"></i>
+			<p class="color">$43.48</p>
+			<div class="sale">SALE</div>
+		</div>
+		<div class="shirt">
+			<img src="images/product-4.jpg">
+         	<p class="boots">swatsheats</p>
+			<i class="fa fa-star ig"></i><i class="fa fa-star ig"></i><i class="fa fa-star ig"></i><i class="fa fa-star ig"></i><i class="fa fa-star ig"></i>
+			<p class="color">$60.09</p>
+		</div>
+	</div>
+	<div class="product">
+		<div class="shirt">
+			<img src="images/product-5.jpg">
+			<p class="boots"> Black shirt</p>
+			<i class="fa fa-star ig"></i><i class="fa fa-star ig"></i><i class="fa fa-star ig"></i><i class="fa fa-star ig"></i><i class="fa fa-star ig"></i>
+			<p class="color">$67.24</p>
+		</div>
+		<div class="shirt">
+			<img src="images/product-6.jpg">
+        	<p class="boots">Shawl</p>
+			<i class="fa fa-star ic"></i><i class="fa fa-star ic"></i><i class="fa fa-star ic"></i><i class="fa fa-star ic"></i><i class="fa fa-star ig"></i>
+			<p class="color">$67.24</p>
+			<div class="sale">SALE</div>
+		</div>
+		<div class="shirt">
+			<img src="images/product-7.jpg">
+         	<p class="boots">Bag</p>
+			<i class="fa fa-star ig"></i><i class="fa fa-star ig"></i><i class="fa fa-star ig"></i><i class="fa fa-star ig"></i><i class="fa fa-star ig"></i>
+			<p class="color">$43.48</p>
+		</div>
+		<div class="shirt">
+			<img src="images/product-8.jpg">
+         	<p class="boots">Shirt</p>
+			<i class="fa fa-star ig"></i><i class="fa fa-star ig"></i><i class="fa fa-star ig"></i><i class="fa fa-star ig"></i><i class="fa fa-star ig"></i>
+			<p class="color">$60.09</p>
+		</div>
+	</div>
+	<div class="bag5">
+		<div class="text1">
+			<h1 class="head79">Clothings Hot<br>
+       		<span style="color:black;">Shoe Collection</span><br>
+       		Accessories</h1>
+    	</div>
+    	<div class="text2">
+    		<img src="images/product-sale.png">
+			<div class="circle1">
+				<br><br>Sale Of<br>
+				<p class="size">$29.99<p>
+			</div>
+    	</div>
+		<div class="text3">
+			<h5>DEAL OF THE WEEK</h5><br>
+			<h1 class="head78">Multi-pocket Chest<br>Bag Black</h1><br><br>
+			<p class="timing">30 : 14 : 10 : 18</p><br>
+			<p class="minutes">Days Hours Minutes Seconds</p><br><br>
+			<button class="button15">SHOP NOW</button>
+		</div>	
+	</div>
+    <div class="insta">
+    	<div class="insta2">
+    		<div class="insta4"><img src="images/instagram-1.jpg"></div>
+    		<div class="insta4"><img src="images/instagram-2.jpg"></div>
+			<div class="insta4"><img src="images/instagram-3.jpg"></div>
+			<div class="insta4"><img src="images/instagram-4.jpg"></div>
+			<div class="insta4"><img src="images/instagram-5.jpg"></div>
+			<div class="insta4"><img src="images/instagram-6.jpg"></div>
+    	</div>
+    	<div class="insta3"> 
+            <h2 class="inst">Instagram</h2><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br><br><br>
+			<h2 class="inst1">#Male_Fashion</h2>
+    	</div>
+    </div>
+    <div class="fashion">
+    	<div class="news">
+    		<br><br>
+    		<p class="goo">LATEST NEWS</p><br>
+            <h2>Fashion New Trends</h2>
+    	</div>
+    	<div class="gucci">
+    		<div class="pic1">
+    			<div class="imgpart">
+    				<img src="images/blog-1.jpg">
+    			</div>
+    			<div class="cntntpart">
+    				<p  class="date">16 February 2020</p><br>
+    				<h4 class="jack1">What Curling Irons Are The <br> Best Ones</h4><br>
+    				<p class="jack2">READ MORE</p>
+                </div>
+    		</div>
+    		<div class="pic1">
+    			<div class="imgpart">
+    				<img src="images/blog-2.jpg">
+    			</div>
+    			<div class="cntntpart">
+    				<p class="date"> 21 February 2020</p><br>
+                    <h4 class="jack1">Eternity Bands Do Last<br> Forever</h4><br>
+                   	<p class="jack2"> READ MORE</p>
+    			</div>
+    		</div>
+    		<div class="pic1">
+    			<div class="imgpart">
+    				<img src="images/blog-3.jpg">
+    			</div>
+    			<div class="cntntpart">
+    				<p class="date">28 February 2020</p><br>
+                    <h4 class="jack1">The Health Benefits Of Sunglasses</h4><br>
+                    <p class="jack2"> READ MORE</p>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <div class="footer">
+    	<div class="customer1">
+    		<img src="images/footer-logo.png"><br><br>
+    		<p class="text10">The customer is at the heart of our unique business model, which includes design.</p><br><br>
+    		<img src="images/payment.png"><br><br>
+    	</div>
+    	<div class="customer2">
+    		<h3 class="shop1">SHOPPING</h3><br>
+    		<ul>
+    			<li><a href="#">Clothing Store</a></li>
+    			<li><a href="#">Trending Shoes</a></li>
+    			<li><a href="#">Accessories</a></li>
+    			<li><a href="#">Sale</a></li>
+    		</ul>
+      	</div>
+    	<div class="customer2">
+    		<h3 class="shop">SHOPPING</h3><br>
+    		<ul>
+    			<li><a href="#">Contact Us</a></li>
+                <li><a href="#">Payment Methods</a></li>
+                <li><a href="#">Delivery</a></li>
+                <li><a href="#">Return & Exchanges</a></li>
+            </ul>
+        </div>
+    	<div class="customer1">
+    		<h3 class="shop">NEWLETTER</h3><br>
+			<p class="text10">Be the first to know about new<br> arrivals, look books, sales & promos!</p><br><br>
+			<input class="inpt" type="text" name="" placeholder="Your email"><u><i class="fa fa-envelope ig" style="font-size:15px;"></i></u>
+			<hr>
+    	</div>
+    </div>
+    <div class="last">
+    	<hr/ style="width: 85%;border: 1px solid grey;margin: auto;"><br>
+    	<p style="font-size: 15px;font-family: Arial;">Copyright © 2025 All rights reserved | This template is made with <i class="fa fa-heart" style="color: blue;"></i> by <a href="#">Samridhi</a></p>
+    </div>
+     <script>
+       let currentIndex = 0;
+		const slides = document.querySelectorAll(".slide");
+		function moveSlide(step) {
+		    const totalSlides = slides.length;
+		    
+		    // Remove "active" class from all slides
+		    slides.forEach(slide => slide.classList.remove("active"));
+		    
+		    // Calculate new index
+		    currentIndex = (currentIndex + step + totalSlides) % totalSlides;
+		    
+		    // Add "active" class to the new slide
+		    slides[currentIndex].classList.add("active");
+
+		    // Move slides container
+		    document.querySelector(".slides").style.transform = `translateX(-${currentIndex * 100}%)`;
+		} 
+		// Initialize first slide as active
+		slides[currentIndex].classList.add("active");
+    </script>
+    <script>
+  // Set the deadline (example: 5 days from now)
+  const deadline = new Date();
+  deadline.setDate(deadline.getDate() + 5); // 5 days later
+
+  function updateTimer() {
+    const now = new Date().getTime();
+    const distance = deadline - now;
+
+    if (distance < 0) {
+      document.querySelector(".timing").innerHTML = "00 : 00 : 00 : 00";
+      return;
+    }
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Format to 2-digit numbers
+    const format = n => (n < 10 ? "0" + n : n);
+
+    document.querySelector(".timing").innerHTML =
+      `${format(days)} : ${format(hours)} : ${format(minutes)} : ${format(seconds)}`;
+  }
+
+  // Run once immediately
+  updateTimer();
+
+  // Update every second
+  setInterval(updateTimer, 1000);
+</script>
+<script>
+    function showProducts(category) {
+      document.querySelectorAll('.product-group').forEach(group => group.classList.remove('active'));
+      document.querySelector(`#${category}`).classList.add('active');
+
+      document.querySelectorAll('.filter a').forEach(a => a.classList.remove('active'));
+      event.target.classList.add('active');
+    }
+  </script>
+
+</body>
+</html>

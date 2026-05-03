@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style>
+		*{
+			padding: 0px;
+			margin: 0px;
+			box-sizing: border-box;
+			font-family: arial;
+		}
+		.lop{
+			width: 100%;
+			height: 7vh;
+			border: 0px solid black;
+			display: flex;
+			justify-content: space-between;
+			background-color: black;
+		}
+		.lap{
+			width:40%;
+			height: 100%;
+			border: 0px solid white;
+			color: white;
+			text-align: center;
+			align-content: center;
+		}
+		.lup{
+			width:30%;
+			height: 100%;
+			border: 0px solid white;
+			color: white;
+			text-align: center;
+			align-content: center;
+		}
+		.lar{
+			width:100%;
+			height: 14vh;
+			border: 0px solid black;
+			display: flex;
+			justify-content: space-between;
+		}
+		.mar{
+			width:30%;
+			height: 100%;
+			border: 0px solid black;
+			text-align: center;
+			align-content: center;
+		}
+		.jar{
+			width:40%;
+			height: 100%;
+			border: 0px solid black;
+			text-align: center;
+			align-content: center;
+		}
+		.yar{
+			width:30%;
+			height: 100%;
+			border: 0px solid black;
+			text-align: center;
+			align-content: center;
+		}
+		.like{
+			width:100%;
+			height:30vh;
+			border: 0px solid black;
+			background-color:#dddcdc;
+			padding: 20px;
+			align-content: center;
+		}
+		.atm{
+			width:90%;
+			height:10vh;
+			border: 0px solid black;
+			margin: auto;
+			display: flex;
+			justify-content: space-between;
+		}
+		.aatm{
+			width:20%;
+			height:100%;
+			border: 0px solid black;
+			align-content: center;
+		}
+		.satm{
+			width:20%;
+			height:100%;
+			border: 0px solid black;
+			align-content: center;
+		}
+		.datm{
+			width:30%;
+			height:100%;
+			border: 0px solid black;
+			align-content: center;
+		}
+		.fatm{
+			width:20%;
+			height:100%;
+			border: 0px solid black;
+			align-content: center;
+		}
+		.print{
+			width:90%;
+			height:90vh;
+			border: 0px solid black;
+			display: flex;
+			justify-content: space-evenly;
+			margin: auto;
+		}
+		.SHARMA{
+			width:70%;
+			height: 100%;
+			border: 0px solid black;
+			display: flex;
+			justify-content: space-between;
+		}
+		.goli{
+			width:18%;
+			height: 100%;
+			border: 0px solid black;
+		}
+		.mala{
+			width: 100%;
+			height: 25%;
+			border: 0px solid black;
+			align-content: center;
+		}
+		.moli{
+			width:20%;
+			height: 100%;
+			border: 0px solid black;
+		}
+		.roli{
+			width:18%;
+			height: 100%;
+			border: 0px solid black;
+		}
+		.joli{
+			width:18%;
+			height: 100%;
+			border: 0px solid black;
+		}
+		.koli{
+			width:18%;
+			height: 100%;
+			border: 0px solid black;
+		}		
+		.varma{
+			width:28%;
+			height: 100%;
+			border: 0px solid black;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-evenly;
+		}
+		.strim{
+			width:100%;
+			height:10%;
+			border: 0px solid black;
+			display: flex;
+			justify-content: space-between;
+			margin-top:5%;
+		}
+		.lawa{
+			width:65%;			
+			height: 100%;
+			border: 0px solid black;
+		}
+		.jawa{
+			width:35%;
+			height: 100%;
+			border: 0px solid black;
+		}
+		.rim{
+			width:100%;
+			height:40%;
+			border: 0px solid black;
+			background-color: #dddcdc;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-evenly;
+		}
+		.girls{
+			width:50%;
+			height:50%;
+			border: 0px solid black;
+			padding: 20px;
+		}
+		.Boys{
+			width:50%;
+			height:50%;
+			border: 0px solid black;
+			padding: 20px;
+		}
+		.string{
+			width:100%;
+			height: 50%;
+			border:0px solid black;
+			text-align: center;
+		}
+		.paras{
+			width:60%;
+			height:20vh;
+			border: 0px solid black;
+			margin-left:7%;
+			display: flex;
+			justify-content: space-between;
+		}
+		.shoo{
+			width:50%;
+			height: 100%;
+			border: 0px solid black;
+			text-align: center;
+			align-content: center;
+		}
+		.polish{
+				width:50%;
+			height: 100%;
+			border: 0px solid black;
+			text-align: center;
+			align-content: center;
+		}
+			.lorem{
+			width: 100%;
+			height: 50vh;
+			border: 0px solid black;
+			background-color: black;
+			display: flex;
+			justify-content: space-evenly;
+		}
+		.or{
+			width:20%;
+			height: 100%;
+			border: 0px solid white;
+			padding: 20px;
+			color: white;
+		}
+		.br{
+			width:20%;
+			height: 100%;
+			border: 0px solid white;
+			padding: 20px;
+			color: white;
+		}
+		.hr{
+			width:20%;
+			height: 100%;
+			border: 0px solid white;
+			padding: 20px;
+			color: white;
+		}
+		.nr{
+			width:25%;
+			height: 100%;
+			border: 0px solid white;
+			padding: 20px;
+			color: white;
+		}
+</style>
+</head>
+<body>
+<div class="lop">
+	<div class="lap">
+		<P>Free shipping, 30-day return or refund guarantee.</P>
+	</div>
+	<div class="lup">
+		<ul style="font-size:13px">
+			<li style="display: inline;margin-left: 8%;">SIGN IN</li>
+			<li style="display: inline;margin-left: 8%;">FAQS</li>
+			<li style="display: inline;margin-left: 8%;">USD</li>
+		</ul>
+	</div>
+	</div>
+	<div class="lar">
+	<div class="mar">
+		<img src="portfolio/images 2/logo.png">
+	</div>
+	<div class="jar">
+		<ul style="font-size:18px">
+			<li style="display: inline;margin-left: 5%;"><a style="text-decoration: none;color: black;" href="index male.html">Home</a></li>
+			<li style="display: inline;margin-left: 5%;"><a style="text-decoration: none;color: black;" href="shop.html">Shop</a></li>
+			<li style="display: inline;margin-left: 5%;">Pages</li>
+			<li style="display: inline;margin-left: 5%;"><a style="text-decoration: none;color: black;" href="blog.html">Blog</a></li>
+			<li style="display: inline;margin-left: 5%;"><a style="text-decoration: none;color: black;" href="contacts.html">Contacts</a></li>
+		</ul>
+	</div>
+	<div class="yar">
+		<ul style="font-size:19px">
+			<li style="display: inline;margin-left: 5%;"><i class="fa-solid fa-magnifying-glass"></i></li>
+			<li style="display: inline;margin-left: 5%;"><i class="fa-regular fa-heart"></i></li>
+			<li style="display: inline;margin-left: 5%;"><i class="fa-solid fa-briefcase"></i></li>
+			<li style="display: inline;margin-left: 2%;">$0.00</li>
+		</ul>
+	</div>
+	</div>
+	<div class="like">
+		<h2 style="margin-left:6%">Shopping Cart</h2><br>
+		<p style="margin-left:6%">Home Shop</p>
+	</div><br><br><br><br><br><br><br>
+	<div class="atm">
+	<div class="aatm">
+		<h4 style="margin-left: 30%;">PRODUCT</h4>
+	</div>
+	<div class="satm">
+		<h4 style="margin-left: 50%;">QUANTITY</h4>
+	</div>
+	<div class="datm">
+		<h4 style="margin-left: 6%;">TOTAL</h4>
+	</div>
+	<div class="fatm">
+		<h4>DISCOUNT CODES</h4>
+	</div>
+	</div>
+	<div class="print">
+		<DIV class="SHARMA">
+			<div class="goli">
+				<div class="mala">
+					<img src="portfolio/images 2/cart-1.jpg" style="margin-left:35%">
+				</div>
+				<div class="mala">
+					<img src="portfolio/images 2/cart-2.jpg" style="margin-left:35%">
+				</div>
+				<div class="mala">
+					<img src="portfolio/images 2/cart-3.jpg" style="margin-left:35%">
+				</div>
+				<div class="mala">
+					<img src="portfolio/images 2/cart-4.jpg" style="margin-left:35%">
+				</div>
+			</div>
+			<div class="moli">
+				<div class="mala">
+					<p>T-shirt Contrast Pocket</p>
+					<p style="font-size:18px;margin-top:4%;"><b>$98.49</b></p>
+				</div>
+				<div class="mala">
+					<p>Diagonal Textured Cap</p>
+					<p style="font-size:18px;margin-top:4%;"><b>$98.49</b></p>
+				</div>
+				<div class="mala">
+					<p>Basic Flowing Scarf</p>
+					<p style="font-size:18px;margin-top:4%;"><b>$98.49</b></p>
+
+				</div>
+				<div class="mala">
+					<p>Basic Flowing Scarf</p>
+					<p style="font-size:18px;margin-top:4%;"><b>$98.49</b></p>
+
+				</div>
+			</div>
+			<div class="roli">
+				<div class="mala">
+					<p style="text-align:center;">1</p>
+				</div>
+				<div class="mala">
+					<p style="text-align:center;">1</p>
+				</div>
+				<div class="mala">
+					<p style="text-align:center;">1</p>
+				</div>
+				<div class="mala">
+					<p style="text-align:center;">1</p>
+				</div>
+			</div>
+			<div class="joli">
+				<div class="mala">
+					<p style="font-size:18px;text-align: center;"><b>$30.00</b></p>
+				</div>
+				<div class="mala">
+					<p style="font-size:18px;text-align: center;"><b>$32.50</b></p>
+				</div>
+				<div class="mala">
+					<p style="font-size:18px;text-align: center;"><b>$47.00</b></p>
+				</div>
+				<div class="mala">
+					<p style="font-size:18px;text-align: center;"><b>$30.00</b></p>
+				</div>
+			</div>
+			<div class="koli">
+				<div class="mala">
+					<i class="fa-solid fa-xmark" style="margin-left:43%;font-size:25px;"></i>
+				</div>
+				<div class="mala">
+					<i class="fa-solid fa-xmark" style="margin-left:43%;font-size:25px;"></i>
+				</div>
+				<div class="mala">
+					<i class="fa-solid fa-xmark" style="margin-left:43%;font-size:25px;"></i>
+				</div>
+				<div class="mala">
+					<i class="fa-solid fa-xmark" style="margin-left:43%;font-size:25px;"></i>
+				</div>
+			</div>
+		</DIV>
+		<DIV class="varma">
+			<div class="strim">
+			<div class="lawa">
+				<input type="text" placeholder="coupon cod" style="width:100%;height: 90%;">
+			</div>
+			<div class="jawa">
+				<button style="background-color:black;color: white;border: none;width: 100%;height: 90%;font-size:16px;">APPLY</button>
+			</div>
+			</div>
+			<div class="rim">
+				<div class="girls">
+					<p>CART TOTAL</p><br>
+					<P>Subtotal</P><br>
+					<p>Total</p>
+				</div>
+				<div class="Boys">
+					<p style="color:red;margin-left:50%;margin-top:20%;">$169.50</p>
+					<p style="color:red;margin-left:50%;margin-top:20%;">$169.50</p>
+				</div>
+				<div class="string">
+			<button style="background-color:black;color: white;width:80%;height:7vh;border: none;margin-top:10%;">
+				<b>PROCEED TO CHECKOUT</b></button>
+		</div>
+		</div>
+		</DIV>
+	</div>
+	<div class="paras">
+	<div class="shoo">
+		<button style="background-color:transparent;width:65%;height:7vh;">CONTINUE SHOPPING</button>
+	</div>
+	<div class="polish">
+		<button style="background-color:black;width:50%;height:7vh;color:white;border: none;"><b>UPDATE CART</b></button>
+	</div>
+	</div><br><br><br>
+		<div class="lorem">
+		<div class="or">
+		<img src="portfolio/images 2/footer-logo.png"><br><br>
+			<p style="line-height:30px">The customer is at the heart of our unique business model, which includes design.</p><br><br>
+			<img src="portfolio/images 2/payment.png"><br><br>
+		</div>
+		<div class="br">
+			<h3 style="margin-left:25%">SHOPING</h3><br>
+			<p style="margin-left:25%">Clothing Store</p><br>
+			<p style="margin-left:25%">Trending Shoes</p><br>
+			<p style="margin-left:25%">Accessories</p><br>
+			<p style="margin-left:25%"	>Sale</p><br>
+		</div>
+		<div class="hr">
+			<h3>SHOPING</h3><br>
+			<p>Clothing Store</p><br>
+			<p>Payment Methods</p><br>
+			<p>Delivary</p><br>
+			<p>Return & Exchanges</p><br>
+		</div>
+		<div class="nr">
+			<h3>NewLetter</h3><br>
+			<p style="line-height:30px">Be the first to know about new<br>arrivals, look books, sales & promos!</p><br><br>
+			<input type="text" placeholder="Your email" style="background-color:transparent;border: none;border-bottom:1px solid white;width:90%;height: 10vh;">
+		</div>
+	</div>
+</body>
+</html>

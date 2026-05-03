@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+	<title>Male Fashion</title>
+</head>
+<body>
+	<div class="upper">
+		<p>Free shipping, 30-day return or refund guarantee.</p>
+    	<ul>
+    		<li><a href="#">SIGN IN</a></li> 
+    		<li><a href="#">FAQS</a></li>
+    		<li><a href="#">USD <i class="fa fa-angle-down"></i></a></li>
+    	</ul>
+	</div>
+
+	<div class="second2">
+		<img src='images/logo.png'>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="shop.html">Shop</a></li>
+			<!-- <li><a href="#">Pages</a></li> -->
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="contact.html">Contacts</a></li>
+		</ul>
+		<ul>
+			<li><a href="#"><i class="fa fa-search"></i></a></li>
+            <li><a href="#"><i class="fa fa-heart ib"></i></a></li>
+            <li><a href="#"><i class="fa fa-shopping-bag"></i> $0.00</a></li>
+		</ul>
+	</div>
+
+	<div class="divc"><iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d109864.94466427402!2d76.16678037267701!3d30.62607902477711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x391017ba56118ac7%3A0xad6679336fc15614!2sOff%20to%20NH-44%2C%20Amloh%20Road%2C%20Mandi%20Gobindgarh%20District%20Fatehgarh%20Sahib%2C%20Punjab-%2014%2C%20Mandi%20Gobindgarh%2C%20Punjab%20147301!3m2!1d30.626105!2d76.2491817!5e0!3m2!1sen!2sin!4v1753633478555!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+	<div class="div3c">
+		<div class="inform">
+			<h6>INFORMATION</h6><br>
+        	<h1>Contact Us</h1><br>
+       		<p> As you might expect of a company that began as a high-end interiors contractor, we pay strict attention.</p><br>
+
+			<h4>America</h4><br>
+       		<p>195 E Parker Square Dr, Parker, CO 801<br> 
+        	+43 982-314-0958</p><br> 
+
+       		<h4>France</h4><br>
+      		<p>109 Avenue Léon, 63 Clermont-Ferrand<br>
+       		+12 345-423-9893</p><br>
+       	</div>
+
+		<div class="form">
+			<form id="contact-form">
+				<input type="text" name="name" placeholder="Name" required>
+				<input type="email" name="email" placeholder="Email" required>
+				<textarea name="message" placeholder="Message" required></textarea>
+				<button type="submit">SEND MESSAGE</button>
+			</form>
+			<p id="form-message" style="color: green; margin-top: 10px;"></p>
+		</div>
+	</div>
+
+	<div class="footer">
+    	<div class="customer1">
+    		<img src="images/footer-logo.png"><br><br>
+    		<p class="text10">The customer is at the heart of our unique business model, which includes design.</p><br><br>
+    		<img src="images/payment.png"><br><br>
+    	</div>
+    	<div class="customer2">
+    		<h3 class="shop1">SHOPPING</h3><br>
+    		<ul>
+    			<li><a href="#">Clothing Store</a></li>
+    			<li><a href="#">Trending Shoes</a></li>
+    			<li><a href="#">Accessories</a></li>
+    			<li><a href="#">Sale</a></li>
+    		</ul>
+      	</div>
+    	<div class="customer2">
+    		<h3 class="shop">SHOPPING</h3><br>
+    		<ul>
+    			<li><a href="#">Contact Us</a></li>
+                <li><a href="#">Payment Methods</a></li>
+                <li><a href="#">Delivery</a></li>
+                <li><a href="#">Return & Exchanges</a></li>
+            </ul>
+        </div>
+    	<div class="customer1">
+    		<h3 class="shop">NEWLETTER</h3><br>
+			<p class="text10">Be the first to know about new<br> arrivals, look books, sales & promos!</p><br><br>
+			<input class="inpt" type="text" name="" placeholder="Your email"><u><i class="fa fa-envelope ig" style="font-size:15px;"></i></u>
+			<hr>
+    	</div>
+    </div>
+    <div class="last">
+    	<hr/ style="width: 85%;
+    	border: 1px solid grey;margin: auto;"><br>
+    	<p style="font-size: 15px;font-family: Arial;">Copyright © 2025 All rights reserved | This template is made with <i class="fa fa-heart" style="color: blue;"></i> by <a href="#">Samridhi</a></p>
+    </div>
+
+	<!-- JavaScript Section -->
+	<script>
+		// Contact form submit handler
+		document.getElementById("contact-form").addEventListener("submit", function(e) {
+			e.preventDefault();
+			document.getElementById("form-message").innerText = "Thanks for contacting us! We’ll get back to you soon.";
+			this.reset();
+		});
+
+		// Currency toggle (dummy toggle for now)
+		document.getElementById("currency-toggle").addEventListener("click", function(e) {
+			e.preventDefault();
+			alert("Currency options coming soon!");
+		});
+
+		// Newsletter subscription
+		document.getElementById("subscribe-btn").addEventListener("click", function() {
+			const email = document.getElementById("newsletter-email").value;
+			if (email) {
+				alert("Subscribed with " + email);
+				document.getElementById("newsletter-email").value = "";
+			} else {
+				alert("Please enter your email.");
+			}
+		});
+	</script>
+</body>
+</html>
